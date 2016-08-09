@@ -1,0 +1,25 @@
+{
+  "name": "responsive-web-app",
+  "version": "1.0.0",
+  "description": "\"# responsive-web-app-shingo\" \r \"https://www.youtube.com/results?q=git+y+github&sp=EgIIBQ%253D%253D\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Freelance-webapp-response/responsive-website-shingo.git"
+  },
+  "author": "Bryan Vargas <bryanprsvar@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Freelance-webapp-response/responsive-website-shingo/issues"
+  },
+  "homepage": "https://github.com/Freelance-webapp-response/responsive-website-shingo#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-connect": "^5.0.0",
+    "gulp-inject": "^4.1.0",
+    "wiredep": "^4.0.0"
+  }
+}
