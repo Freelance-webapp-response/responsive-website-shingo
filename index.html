@@ -6,6 +6,7 @@
     <title>Simple webapp Responsive</title>
     <!--<link rel="stylesheet" href="css/style.css" type=text/css>-->
     <!-- bower:css -->
+    <link rel="stylesheet" href="librerias/bootstrap/dist/css/bootstrap.min.css" />
     <!-- endbower -->
     <!-- inject:css -->    
     <link rel="stylesheet" href="/css/style.css">    
@@ -16,19 +17,19 @@
     <!-- header -->
     <header>
         <!-- main container-->
-        <div class="main-container">
+        <div class="container">
             <!-- single row -->
-            <div class="single-row">
+            <div class="row">
                 <!-- col-left -->
-                <div class="col-left">
-                    <img src="images/home.jpg" alt="simple webapp Response">
+                <div class="col-md-8">
+                    <img class="img-responsive img-rounded" src="images/home.jpg" alt="simple webapp Response">
                 </div>
                 <!-- col left -->
                 <!-- col-rigth -->
-                <div class="col-rigth">
+                <div class="col-md-4">
                     <h1>Bryan y Giseles</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat, harum soluta quia esse consequatur exercitationem mollitia unde, odit explicabo obcaecati similique. Iste suscipit dignissimos consectetur vero, error eius. Quisquam, quod, non labore incidunt dicta repellendus.</p>
-                    <a href="#" class="btn">Toma un Tour</a>
+                    <a href="#" class="btn btn-primary btn-lg">Toma un Tour</a>
                 </div>
                 <!-- fin col rigth -->
             </div>
@@ -40,9 +41,9 @@
     <!-- separador -->
     <section>
         <!-- main container -->
-        <div class="main-container">
+        <div class="container">
             <!-- single row -->
-            <div class="single-row">
+            <div class="row">
                 <!-- col full -->
                 <div>
                     <hr>
@@ -53,26 +54,26 @@
     <!-- features -->
     <section>
         <!-- main container -->
-        <div class="main-container">
+        <div class="container">
             <!-- single row -->
-            <div class="single-row">
+            <div class="row">
                 <!-- col-1 -->
-                <div class="col-1">
+                <div class="col-md-4">
                     <h2>RETINA READY</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem accusamus ipsa dicta vel blanditiis, laudantium repudiandae officia quae dolore itaque deserunt, iusto molestiae quisquam aut veniam odit optio provident nemo nesciunt, temporibus labore eum eius.</p>
-                    <a href="#" class="btn-info">Mas Info</a>
+                    <a href="#" class="btn btn-default">Mas Info</a>
                 </div>
                 <!-- col-2 -->
-                <div class="col-2">
+                <div class="col-md-4">
                     <h2>MOBILE READY</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem accusamus ipsa dicta vel blanditiis, laudantium repudiandae officia quae dolore itaque deserunt, iusto molestiae quisquam aut veniam odit optio provident nemo nesciunt, temporibus labore eum eius.</p>
-                    <a href="#" class="btn-info">Mas Info</a>
+                    <a href="#" class="btn btn-default">Mas Info</a>
                 </div>
                 <!-- col-3 -->
-                <div class="col-3">
+                <div class="col-md-4">
                     <h2>EASy LAYOUT</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem accusamus ipsa dicta vel blanditiis, laudantium repudiandae officia quae dolore itaque deserunt, iusto molestiae quisquam aut veniam odit optio provident nemo nesciunt, temporibus labore eum eius.</p>
-                    <a href="#" class="btn-info">Mas Info</a>
+                    <a href="#" class="btn btn-default">Mas Info</a>
                 </div>
             </div>
         </div>
@@ -80,16 +81,18 @@
     <div class="clear-fix"></div>
     <!-- footer -->
     <!-- main container -->
-    <div class="main-container">
+    <div class="container">
         <!-- single row -->
-        <div class="single-row">
+        <div class="row">
             <!-- col-full -->
-            <div class="col-footer">
-                <p>Copyrights &copy; Belerofonte 2016</p>
+            <div class="col-md-12">
+                <p id="footer-p">Copyrights &copy; Belerofonte 2016</p>
             </div>
         </div>
     </div>
     <!-- bower:js -->
+    <script src="librerias/jquery/dist/jquery.js"></script>
+    <script src="librerias/bootstrap/dist/js/bootstrap.min.js"></script>
     <!-- endbower -->
     <!-- inject:js -->
     <script src="/js/script.js"></script>
